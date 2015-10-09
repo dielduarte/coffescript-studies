@@ -1,0 +1,9 @@
+obj =
+	name: 'Diel'
+	age: 20
+	address:
+		city: 'Betim'
+		uf: 'MG'
+		tel: '9226-3265'
+	add: tel = ->
+				console.log('oi')	
