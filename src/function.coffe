@@ -1,0 +1,27 @@
+functions  = ->
+	confirm('you ready?')
+
+returnFunction = ->
+	answer = confirm "ready for some coffe?"
+	"your answer is" + answer
+
+interpolateString = ->
+	answer = confirm "ready for some coffe?"
+	"your answer is #{answer}"
+
+oneparam = (message) ->
+	answer = confirm message
+	"your answer is #{answer}"
+
+coffe3('yes')
+coffe3 'yes'
+
+manyParams = (message, number) ->
+	answer = confirm message
+	"your answer is #{answer} #{number}"
+
+manyParams('yes', 20)
+manyParams 'yes', 30
+
+defaultParams = (message = 'default params') ->
+	confirm message

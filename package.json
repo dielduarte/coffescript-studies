@@ -1,0 +1,23 @@
+{
+  "name": "coffescript-studies",
+  "version": "1.0.0",
+  "description": "my studies about coffescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dielduarte/coffescript-studies.git"
+  },
+  "author": "Diel Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dielduarte/coffescript-studies/issues"
+  },
+  "homepage": "https://github.com/dielduarte/coffescript-studies#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1"
+  }
+}
