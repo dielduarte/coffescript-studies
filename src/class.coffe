@@ -1,4 +1,4 @@
-class person
+class Person
 	constructor: (@name, @age) ->
 
 	can_dive: ->
