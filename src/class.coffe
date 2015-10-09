@@ -1,0 +1,6 @@
+class person
+	constructor: (@name, @age) ->
+
+	can_dive: ->
+		minimun_age = 17
+		@age >= minimun_age	
